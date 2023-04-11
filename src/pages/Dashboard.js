@@ -2,7 +2,7 @@ import React from 'react';
 
 const Dashboard = ({ ...props }) => {
   return (
-    <div>
+    <div className="workspace">
       <h1>Dashboard Page</h1>
       <div className="isActive">isActive</div>
     </div>

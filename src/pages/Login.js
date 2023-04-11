@@ -84,6 +84,12 @@ const Login = () => {
           </div>
         </Modal>
       )}
+
+      <div className="workspace">
+        <button testid="list-icon" className="button" onClick={onOpen}>
+          Button
+        </button>
+      </div>
     </div>
   );
 };
